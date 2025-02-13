@@ -1,0 +1,86 @@
+.SectionHeaderContainer {
+  background-image: url(https://cdn-new.topcv.vn/unsafe/https://static.topcv.vn/v4/image/welcome/section-header/header-bg.png);
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0 0 0;
+  gap: 15px;
+}
+
+.title-home {
+  color: #009643;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.descript-home {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.12px;
+  line-height: 16px;
+}
+
+.descript-highlight {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.175px;
+  line-height: 22px;
+}
+
+.jobCategoriesFilter {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.175px;
+  line-height: 22px;
+}
+
+.categoriesFilter {
+  padding: 10px;
+  background-color: white;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.buttonCategoriesFilter:hover {
+  border: 1px solid #009643 !important;
+  background-color: #e7fff3 !important;
+  color: black !important;
+}
+
+.input_search_home {
+  border-radius: 20px;
+  width: 490px;
+  outline: none;
+}
+
+.location_filter:hover {
+  color: black !important;
+  border: 1px solid #009643 !important;
+  background-color: #e7fff3 !important;
+}
+
+.listJobCategories {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 16px;
+  background-color: white;
+  padding: 16px;
+  border-radius: 12px;
+  height: 80%;
+  width: 326px;
+}
+
+.jobItem {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.jobItem:hover {
+  color: #00b14f;
+}

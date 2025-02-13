@@ -1,0 +1,57 @@
+.notificationContainer {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #00b14f;
+  background-color: #def8ea;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+}
+
+.notiCount {
+  width: 20px;
+  height: 20px;
+  background-color: #d95350;
+  color: white;
+  font-size: 11px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+  background-color: #fafafa;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.profileContainer > i {
+  color: #00b14f;
+}
+
+.profileContainer > i:hover {
+  transform: scaleY(-1);
+  transition: 1s;
+}
+.nav-link-header {
+    color: black;
+}
+
+.nav-link-header:hover {
+    color: #00b14f;
+}
+
+.active-nav-link-header {
+    color: #00b14f;
+}
