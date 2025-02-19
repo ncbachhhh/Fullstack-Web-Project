@@ -1,10 +1,10 @@
-import { Flex, Typography } from "antd";
+import { Button, Flex, Typography } from "antd";
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./Header.css";
 
 export default function Header() {
-  const loginCheck = true;
+  const loginCheck = false;
   const notiCount = 1;
 
   const [flip, setFlip] = useState(false);
@@ -55,7 +55,11 @@ export default function Header() {
           </Flex>
         </Flex>
       ) : (
-        <Flex></Flex>
+        <Flex gap={20} align="center">
+          <Button size="large" className="login_btn" >Đăng nhập</Button>
+          <Button size="large" className="signup_btn">Đăng kí</Button>
+          <Button size="large" className="company_btn">Đăng tuyển & tìm hồ sơ</Button>
+        </Flex>
       )}
     </Flex>
   );
