@@ -1,0 +1,31 @@
+.login-right-container {
+  background-image: url(https://static.topcv.vn/v4/image/auth/auth_bg_desktop.png);
+  height: 100vh;
+  width: 35vw;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.login-title > h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.login-title > p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.arrow-login-bg {
+    background-image: url(https://static.topcv.vn/v4/image/auth/auth_arrow.png);
+    z-index: 1;
+    width: 240px;
+    height: 90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

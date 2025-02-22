@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./SectionHeader.css";
 import { Button, Flex, Input } from "antd";
+import AuthContext from "../../../contexts/auth.context.js";
 
 export default function SectionHeader() {
+ 
   const JobCategories = ["Kinh doanh/Bán hàng", "Marketing/PR/Quảng cáo", "Chăm sóc khách hàng", "Nhân sự/Hành chính/Pháp chế", "Tài chính/Ngân hàng/Bảo hiểm", "Công nghệ thông tin", "Bất động sản/Xây dựng", "Sản xuất"];
   return (
     <div className="SectionHeaderContainer">

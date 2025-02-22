@@ -1,0 +1,61 @@
+.TopJobContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.box-wrap-top-job {
+  width: 1140px;
+}
+
+.top-job-title > h1 {
+  color: #00b14f;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.top-job-list-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 20px;
+}
+
+.top-job-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background: #f3f5f7;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.top-job-item:hover {
+  background: #fff;
+  border-color: #33c172;
+  box-shadow: 0 10px 30px rgba(14, 166, 59, 0.2);
+  cursor: pointer;
+}
+
+.top-job-image {
+  height: 100px;
+  width: 100px;
+}
+
+.top-job-image > img {
+  width: 100%;
+  height: 100%;
+}
+
+.top-job-name {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 8px;
+}

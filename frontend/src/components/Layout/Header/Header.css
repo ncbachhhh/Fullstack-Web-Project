@@ -45,15 +45,15 @@
   transition: 1s;
 }
 .nav-link-header {
-    color: black;
+  color: black;
 }
 
 .nav-link-header:hover {
-    color: #00b14f;
+  color: #00b14f;
 }
 
 .active-nav-link-header {
-    color: #00b14f;
+  color: #00b14f;
 }
 
 .login_btn {
@@ -88,5 +88,83 @@
 .company_btn:hover {
   color: white !important;
   background-color: #1f2b39 !important;
-  border-color: #1f2b39 !important; 
+  border-color: #1f2b39 !important;
+}
+.right-header-container {
+  position: relative;
+}
+
+.right-header-container:hover .modal-profile-container {
+  display: flex;
+}
+
+.modal-profile-container:hover {
+  display: flex;
+}
+
+.modal-profile-container {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  position: absolute;
+  top: 10vh;
+  width: 100%;
+  background-color: white;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.profile-header {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-info > p:nth-child(1) {
+  color: #00b14f;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.profile-info > p:nth-child(2) {
+  color: #6f7882;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.profile-part {
+  background: #f4f5f5;
+  border-radius: 6px;
+  align-items: center;
+  color: #212f3f;
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 12px;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.profile-part > i {
+  color: #00b14f;
+}
+
+.profile-cv {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgb(149, 149, 149);
 }

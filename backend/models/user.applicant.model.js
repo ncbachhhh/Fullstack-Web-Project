@@ -1,8 +1,7 @@
 import mongoose from "mongoose";
 
 const UserApplicantSchema = new mongoose.Schema({
-  firstName: String,
-  lastName: String,
+  fullName: String,
   email: String,
   password: String,
   phone: String,
