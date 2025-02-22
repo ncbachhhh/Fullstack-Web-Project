@@ -1,0 +1,136 @@
+.hotlineContainer {
+  background-image: url(https://cdn-new.topcv.vn/unsafe/https://static.topcv.vn/v4/image/job-new/hotline_bg.png);
+  min-height: 480px;
+  display: flex;
+  justify-content: center;
+}
+
+.wrap-box-hotline {
+  width: 1140px;
+}
+
+.hotline-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+}
+
+.active-hotline-nav {
+  background-color: white !important;
+  color: #00b14f !important;
+}
+
+.nav-item {
+  color: #a6acb2;
+  border-radius: 15px 15px 0 0;
+  font-size: 16px;
+  font-weight: 700;
+  height: 57px;
+  line-height: 24px;
+  width: 300px;
+  background-color: #c8cbce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-content-container {
+  width: 100%;
+}
+
+.tab-content-1 {
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #fff -9.59%, #fff 37.78%, #deffea);
+  border-radius: 0 20px 20px 20px;
+}
+
+.tab-content-title {
+  color: #212f3f;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.tab-content-title > span {
+  color: #00b14f;
+}
+.tab-content-1-left {
+    padding: 30px;
+}
+.tab-content-phone {
+  align-items: center;
+  background: linear-gradient(90deg, #047e3c, #13c964);
+  border-radius: 32.0583px;
+  box-shadow: 0 6.01093px 20px rgba(0, 0, 0, 0.06);
+  display: flex;
+  height: 64.08px;
+  margin-top: 28px;
+  width: 404.18px;
+}
+
+.tab-content-phone > p {
+  color: #f8fefa;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 40.07px 0 24.04px;
+}
+
+.tab-content-phone > a {
+  align-items: center;
+  background: #e9eaec;
+  border-radius: 24.0437px;
+  display: flex;
+  height: 48.05px;
+  justify-content: center;
+  padding: 10px 28px;
+  width: 167.05px;
+  color: #337ab7;
+  text-decoration: none;
+  gap: 5px;
+}
+
+.tab-content-email {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.tab-content-email > span:nth-child(2) {
+  display: flex;
+  gap: 3px;
+}
+
+.tab-content-icon {
+  align-items: center;
+  background: rgba(0, 177, 79, 0.07);
+  border-radius: 16px;
+  display: flex;
+  height: 28px;
+  justify-content: center;
+  margin-right: 8px;
+  padding: 6px;
+  width: 28px;
+}
+
+.tab-content-a-email {
+  color: #00b14f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.img-tab-content {
+    height: 275px;
+    margin-bottom: -20px;
+    margin-left: 50px;
+}

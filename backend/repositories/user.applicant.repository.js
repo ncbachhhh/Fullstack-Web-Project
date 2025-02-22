@@ -1,6 +1,11 @@
 import UserApplicant from "../models/user.applicant.model.js";
 
 const userApplicantRepository = {
+  getUserById: async (id) => {
+    const user = await UserApplicant.findById(id);
+    return user;
+  },
+
   getUserByEmail: async (email) => {
     const user = await UserApplicant.findOne({ email });
     return user;
@@ -13,8 +18,7 @@ const userApplicantRepository = {
 
   createUser: async (data) => {
     const newUser = new UserApplicant();
-    newUser.firstName = data.firstName;
-    newUser.lastName = data.lastName;
+    newUser.fullName = data.fullName;
     newUser.email = data.email;
     newUser.password = data.password;
     newUser.phone = data.phone;
@@ -26,6 +30,11 @@ const userApplicantRepository = {
     await newUser.save();
 
     return newUser;
+  },
+
+  updateUser: async (id, data) => {
+    const updatedUser = await UserApplicant.findByIdAndUpdate(id, { password: data.password }, { new: true });
+    return updatedUser;
   },
 };
 

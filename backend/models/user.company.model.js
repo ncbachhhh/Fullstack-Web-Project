@@ -11,6 +11,7 @@ const UserCompanySchema = {
   phone: String,
   website: URL,
   jobList: [mongoose.Types.ObjectId],
+  specialization: mongoose.Types.ObjectId,
   registrationDate: Date,
   salt: String,
 };
